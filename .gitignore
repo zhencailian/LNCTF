@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vscode/
+.idea/
+
+public/uploads/
+uploads/
+
+*.log
+output.txt
+
+.env
+.env.local
+
+data/ctf-archives/
+data/my-ctf-challenges/

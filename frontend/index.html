@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LNCTF - 岭南网络安全竞赛训练平台</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a' },
+            dark: { 50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0', 700: '#1e293b', 800: '#0f172a', 900: '#020617' },
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .markdown-body h1 { font-size: 1.5rem; font-weight: 700; margin: 1rem 0 0.5rem; }
+    .markdown-body h2 { font-size: 1.25rem; font-weight: 600; margin: 0.75rem 0 0.5rem; }
+    .markdown-body h3 { font-size: 1.1rem; font-weight: 600; margin: 0.5rem 0; }
+    .markdown-body p { margin: 0.5rem 0; line-height: 1.7; }
+    .markdown-body code { background: #1e293b; color: #e2e8f0; padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; }
+    .markdown-body pre code { background: transparent; padding: 0; }
+    .markdown-body a { color: #3b82f6; text-decoration: underline; }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.5rem; margin: 0.5rem 0; }
+    .markdown-body blockquote { border-left: 4px solid #3b82f6; padding-left: 1rem; color: #64748b; }
+    .markdown-body img { max-width: 100%; border-radius: 8px; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

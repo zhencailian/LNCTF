@@ -1,0 +1,33 @@
+/* LNCTF 全局样式 */
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+/* 过渡动画 */
+.fade-enter-active, .fade-leave-active { transition: opacity 0.2s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; }
+
+.slide-enter-active, .slide-leave-active { transition: all 0.3s ease; }
+.slide-enter-from { transform: translateX(-20px); opacity: 0; }
+.slide-leave-to { transform: translateX(20px); opacity: 0; }
+
+/* 卡片悬停效果 */
+.card-hover { transition: all 0.2s ease; }
+.card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+
+/* 加载动画 */
+.spinner { animation: spin 1s linear infinite; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+/* 难度标签颜色 */
+.diff-easy { background: #22c55e; color: white; }
+.diff-medium { background: #eab308; color: #1e293b; }
+.diff-hard { background: #ef4444; color: white; }
+.diff-expert { background: #8b5cf6; color: white; }
+
+/* 答题状态 */
+.status-solved { border-left: 4px solid #22c55e; }
+.status-unsolved { border-left: 4px solid #94a3b8; }
