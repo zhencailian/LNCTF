@@ -1,4 +1,4 @@
-print("spider.py 开始运行", flush=True)
+netstat -ano | findstr 3306print("spider.py 开始运行", flush=True)
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """

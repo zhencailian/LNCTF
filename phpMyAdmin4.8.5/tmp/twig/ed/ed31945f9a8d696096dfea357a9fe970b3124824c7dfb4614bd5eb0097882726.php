@@ -291,6 +291,6 @@ class __TwigTemplate_1bfa090f62b1272afdca64ca6d33589b6426244f7bf0199d74e80a5a16d
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "display/import/javascript.twig", "D:\\phpstudy_pro\\WWW\\lnctf\\phpMyAdmin4.8.5\\templates\\display\\import\\javascript.twig");
+        return new Twig_Source("", "display/import/javascript.twig", "D:\\phpstudy_pro\\WWW\\LNCTF\\phpMyAdmin4.8.5\\templates\\display\\import\\javascript.twig");
     }
 }
